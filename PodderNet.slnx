@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path=".gitignore" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+    <File Path="LICENSE.md" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Database.Sqlite/Database.Sqlite.csproj" />
+    <Project Path="src/MinimalApi/MinimalApi.csproj" />
+    <Project Path="src/Model/Model.csproj" />
+    <Project Path="src/Server/Server.csproj" />
+  </Folder>
+</Solution>

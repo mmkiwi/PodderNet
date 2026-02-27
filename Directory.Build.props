@@ -1,0 +1,29 @@
+<Project>
+  <!-- See https://aka.ms/dotnet/msbuild/customize for more details on customizing your build -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>14.0</LangVersion>
+    <ArtifactsPath>$(MSBuildThisFileDirectory)artifacts</ArtifactsPath>
+    <RootNamespace>MMKiwi.PodderNet.$(MSBuildProjectName)</RootNamespace>
+    <AssemblyName>MMKiwi.PodderNet.$(MSBuildProjectName)</AssemblyName>
+    <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>MMKiwi.PodderNet.$(MSBuildProjectName)</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Micah Makaiwi</Authors>
+    <RepositoryUrl>https://github.com/mmkiwi/podder.net</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>AGPL-3.0</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <IsAotComatible>true</IsAotComatible>
+    <PublishAot>true</PublishAot>
+    <PublishSingleFile Condition="($(OutputType) == 'winexe') Or ($(OutputType) == 'exe')">true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+  </PropertyGroup>
+</Project>
