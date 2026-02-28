@@ -8,7 +8,6 @@
     <ArtifactsPath>$(MSBuildThisFileDirectory)artifacts</ArtifactsPath>
     <RootNamespace>MMKiwi.PodderNet.$(MSBuildProjectName)</RootNamespace>
     <AssemblyName>MMKiwi.PodderNet.$(MSBuildProjectName)</AssemblyName>
-    <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -45,7 +45,6 @@ public partial class Program
         {
             await using var connection = scope.ServiceProvider.GetRequiredService<IDatabaseManager>();
             await connection.EnsureCreated();
-            await connection.CreateUser("micah", "password"u8);
         }
         
         

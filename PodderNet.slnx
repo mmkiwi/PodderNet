@@ -8,6 +8,7 @@
     <File Path="README.md" />
   </Folder>
   <Folder Name="/src/">
+    <Project Path="src/Dapper.Scaffold/Dapper.Scaffold.csproj" />
     <Project Path="src/Database.Sqlite/Database.Sqlite.csproj" />
     <Project Path="src/MinimalApi/MinimalApi.csproj" />
     <Project Path="src/Model/Model.csproj" />
